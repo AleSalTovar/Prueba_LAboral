@@ -1,0 +1,1 @@
+En la carpeta META-INF el archivo context.xml. Dentro del archivo se deben cambiar los valores username, password y url para el uso de la base de datos.

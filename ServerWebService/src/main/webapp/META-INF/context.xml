@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ServerWebService">
+    <Resource name="jdbc/ConexionDB"
+            auth="Container"
+            type="javax.sql.DataSource"
+            username="root"
+            password="Masamorra0"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/registro"
+            maxTotal="8"
+            maxIdle="4">
+    </Resource>
+</Context>

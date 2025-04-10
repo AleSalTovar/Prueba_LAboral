@@ -1,0 +1,37 @@
+# Archivos de compilación
+*.class
+
+# Carpetas de build
+/build/
+/target/
+
+# Archivos del IDE (Eclipse, IntelliJ, NetBeans)
+*.iml
+.idea/
+*.ipr
+*.iws
+*.bak
+*.log
+*.swp
+*.swo
+*.tmp
+.DS_Store
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+
+# Maven
+.mvn/
+target/
+
+# Gradle
+.gradle/
+build/

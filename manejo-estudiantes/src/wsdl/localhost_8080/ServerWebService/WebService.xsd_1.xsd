@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (https://github.com/eclipse-ee4j/metro-jax-ws). RI's version is Metro/2.4.4 (RELEASE-2.4.4-ce05bec; 2020-04-17T12:44:48+0000) JAXWS-RI/2.3.3 JAXWS-API/2.3.3 JAXB-RI/2.3.3 JAXB-API/2.3.3 git-revision#unknown. --><xs:schema xmlns:tns="http://serverwebservice.local/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://serverwebservice.local/">
+
+<xs:element name="adicion" type="tns:adicion"/>
+
+<xs:element name="adicionResponse" type="tns:adicionResponse"/>
+
+<xs:element name="estudiantesmateria" type="tns:estudiantesmateria"/>
+
+<xs:element name="estudiantesmateriaResponse" type="tns:estudiantesmateriaResponse"/>
+
+<xs:element name="materiasestudiante" type="tns:materiasestudiante"/>
+
+<xs:element name="materiasestudianteResponse" type="tns:materiasestudianteResponse"/>
+
+<xs:complexType name="adicion">
+<xs:sequence>
+<xs:element name="a" type="xs:int"/>
+<xs:element name="b" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="adicionResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estudiantesmateria">
+<xs:sequence>
+<xs:element name="materia" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="estudiantesmateriaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="materiasestudiante">
+<xs:sequence>
+<xs:element name="estudiante" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="materiasestudianteResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
